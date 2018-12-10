@@ -1,0 +1,74 @@
+/*
+    main.css
+    Created by: Cole Hemp
+    Last Modified: December 9th, 2018
+
+    Style sheet to be used throughout the entire website
+*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* All the styling for the Home section of the index.html */
+.homeContainer {
+    /* Image is royalty free from Pexels.com */
+    background-image: url("images/lighter.jpeg");
+
+    /*default
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+
+    /* parrallax */
+    height: 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* styling for all font in the container */
+    color: white;
+
+}
+
+.homeCenter {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%)
+        translateY(-50%);
+}
+
+.homeTitle {
+    font-size: 4em;
+}
+
+.homeSubTitle {
+    font-size: 2em;
+}
+
+.homeBottom {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translateX(-50%)
+        translateY(-50%);
+}
+
+.hiddenLink, .hiddenLink:focus, .hiddenLink:hover {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+}
+
+.downArrowButton {
+    position: relative;
+    border: none;
+    background: none;
+}
+
