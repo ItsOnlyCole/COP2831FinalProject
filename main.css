@@ -11,7 +11,7 @@ body, html {
     margin: 0;
 }
 
-/* All the styling for the Home section of the index.html */
+/* Start of Styling for Home Section of index.html */
 .homeContainer {
     /* Image is royalty free from Pexels.com */
     background-image: url("images/lighter.jpeg");
@@ -72,3 +72,19 @@ body, html {
     background: none;
 }
 
+/* End of Home Section */
+
+/* Start of Styling for Bio Section of index.html */
+.bioContainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pad40 {
+    padding: 40px;
+}
+
+.pad20 {
+    padding: 20px;
+    padding-bottom: 4px;
+}
