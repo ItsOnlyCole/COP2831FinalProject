@@ -88,3 +88,27 @@ body, html {
     padding: 20px;
     padding-bottom: 4px;
 }
+
+.profileImg {
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+}
+
+/* End of Bio Section */
+
+/* Start of Styling for Email Section of index.html */
+.emailContainer {
+    background-color: grey;
+}
+
+.emailFormAndHeader{
+    position: center;
+    float: center;
+}
+
+.emailLabel {
+    text-align: center;
+}
