@@ -12,6 +12,31 @@ body, html {
 }
 
 /* Start of Styling for Nav Section of index.html */
+.navContainer {
+    padding-top: 30px;
+    font-size: 1rem;
+}
+
+.hiddenLink, .hiddenLink:focus, .hiddenLink:hover {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+}
+
+.homeNavLinkContainer {
+    text-align: right;
+}
+
+.navul {
+    padding-left: 0px;
+}
+
+.navli {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
 
 /* Start of Styling for Home Section of index.html */
 .homeContainer {
@@ -62,11 +87,10 @@ body, html {
         translateY(-50%);
 }
 
-.hiddenLink, .hiddenLink:focus, .hiddenLink:hover {
-    color: white;
-    outline: 0;
-    text-decoration: none;
-}
+/* 
+For hiddenLink Class, reference .hiddenLink{} 
+in Nav Section of main.css
+*/
 
 .downArrowButton {
     position: relative;
