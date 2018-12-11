@@ -101,14 +101,41 @@ body, html {
 
 /* Start of Styling for Email Section of index.html */
 .emailContainer {
-    background-color: grey;
+    background-color: #282828;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 33%;
+    padding-right: 33%;
 }
 
-.emailFormAndHeader{
-    position: center;
+.emailForm {
     float: center;
 }
 
-.emailLabel {
+.emailFormTitle {
     text-align: center;
+}
+
+/* End of Email Section */
+
+/* Start of Styling for Footer Section of index.html */
+.footerContainer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.socialLinks {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px
+}
+
+.socialIcon {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
 }

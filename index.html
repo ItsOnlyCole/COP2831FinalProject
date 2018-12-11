@@ -74,34 +74,57 @@
 
     <!--Email Section-->
     <div class="emailContainer container-fluid">
-        <h1>Contact Me</h1>
-        <form>
-            <div class="row">
-                <label>Name: </label>
-                <input type="text" name="name"\>
+        <h1 class="emailFormTitle">Contact Me</h1>
+        <!--Form for submitting an email-->
+        <form class="emailForm">
+            <div class="form-group">
+                <label for="email">Email Address: </label>
+                <input type="email" class="form-control" id="email">
             </div>
-            <br>
-            <div class="row">
-                <div class="emailLabel col-sm-1">
-                <label>Email: </label>
-                </div>
-                <div class="col-sm-11">
-                <input type="text" name="email"\>
-                </div>
+            <div class="form-group">
+                <label for="emailSubject">Subject: </label>
+                <input type="text" class="form-control" id="emailSubject">
             </div>
-            <br>
-            <div class="row">
-                <label>Subject: </label>
-                <input type="text" name="subject"\>
+            <div class="form-group">
+                <label for="emailBody">Message: </label>
+                <textarea class="form-control" rows="5" id="emailBody"></textarea>
             </div>
-            <br>
-            <div class="row">
-                <label>Message: </label>
-            </div>
-            <div class="row">
-                <input type="text" name="emailBody"\>
-            </div>
+            <button type="button" class="btn btn-primary" id="emailSubmitButton">Submit</button>
+            <button type="reset" class="btn btn-primary" id="emailResetButton">Reset</button>
         </form>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footerContainer container-fluid">
+        <div class="socialLinksContainer">
+            <ul class="socialLinks">
+                <li class="socialIcon">
+                    <a href="https://twitter.com/itsonlycole">
+                        <img src="images/socialIcons/twitter.png" width="40px" height="40px"\>
+                    </a>
+                </li>
+                <li class="socialIcon">
+                    <a href="https://instagram.com/itsonlycole">
+                        <img src="images/socialIcons/instagram.png" width="40px" height="40px"\>
+                    </a>
+                </li>
+                <li class="socialIcon">
+                    <a href="https://github.com/itsonlycole">
+                        <img src="images/socialIcons/github.png" width="40px" height="40px"\>
+                    </a>
+                </li>
+                <li class="socialIcon">
+                    <a href="#">
+                        <img src="images/socialIcons/email.png" width="40px" height="40px"\>
+                    </a>
+                </li>
+            </ul>
+
+            <p>
+                Email me with any inquires or suggestions!
+                <br>
+                ColeHemp@gmail.com
+            </p>
         </div>
     </div>
 </body>
