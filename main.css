@@ -11,6 +11,8 @@ body, html {
     margin: 0;
 }
 
+/* Start of Styling for Nav Section of index.html */
+
 /* Start of Styling for Home Section of index.html */
 .homeContainer {
     /* Image is royalty free from Pexels.com */
@@ -97,6 +99,10 @@ body, html {
     float: right;
 }
 
+.secretButton {
+    background-color: red;
+}
+
 /* End of Bio Section */
 
 /* Start of Styling for Email Section of index.html */
@@ -109,12 +115,12 @@ body, html {
     padding-right: 33%;
 }
 
-.emailForm {
-    float: center;
-}
-
 .emailFormTitle {
     text-align: center;
+}
+
+.emailForm {
+    float: center;
 }
 
 /* End of Email Section */
