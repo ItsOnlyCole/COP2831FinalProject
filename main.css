@@ -1,7 +1,7 @@
 /*
     main.css
     Created by: Cole Hemp
-    Last Modified: December 9th, 2018
+    Last Modified: December 12th, 2018
 
     Style sheet to be used throughout the entire website
 */
@@ -14,7 +14,7 @@ body, html {
 /* Start of Styling for Nav Section of index.html */
 .navContainer {
     padding-top: 30px;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .hiddenLink, .hiddenLink:focus, .hiddenLink:hover {
@@ -35,6 +35,10 @@ body, html {
     text-decoration: none;
     display: inline-block;
     padding-right: 10px;
+}
+
+.hoverNavLink:hover {
+    color: lightseagreen;
 }
 
 
